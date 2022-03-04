@@ -10,23 +10,17 @@ import java.util.Objects;
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 @Table(name = "vote")
 public class Vote implements Serializable {
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
     private Integer userId;
     private Integer postId;
 
-    public Vote() {
+    public Vote(){
     }
 
     public Vote(Integer id, Integer userId, Integer postId) {
         this.id = id;
-        this.userId = userId;
-        this.postId = postId;
-    }
-
-    public Vote(Integer userId, Integer postId) {
         this.userId = userId;
         this.postId = postId;
     }
@@ -58,16 +52,14 @@ public class Vote implements Serializable {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Vote)) return false;
+        if (o == null || getClass() != o.getClass()) return false;
         Vote vote = (Vote) o;
-        return Objects.equals(getId(), vote.getId()) &&
-                Objects.equals(getUserId(), vote.getUserId()) &&
-                Objects.equals(getPostId(), vote.getPostId());
+        return Objects.equals(id, vote.id) && Objects.equals(userId, vote.userId) && Objects.equals(postId, vote.postId);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(getId(), getUserId(), getPostId());
+        return Objects.hash(id, userId, postId);
     }
 
     @Override

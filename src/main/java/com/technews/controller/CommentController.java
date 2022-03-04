@@ -19,12 +19,10 @@ public class CommentController {
         return repository.findAll();
     }
 
-
     @GetMapping("/api/comments/{id}")
     public Comment getComment(@PathVariable int id) {
-        return repository.getOne(id);
+        return repository.getById(id);
     }
-
 
     @PostMapping("/api/comments")
     @ResponseStatus(HttpStatus.CREATED)
@@ -32,12 +30,10 @@ public class CommentController {
         return repository.save(comment);
     }
 
-
     @PutMapping("/api/updateComment")
     public Comment updateComment(@RequestBody Comment comment) {
         return repository.save(comment);
     }
-
 
     @DeleteMapping("/api/comments/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)

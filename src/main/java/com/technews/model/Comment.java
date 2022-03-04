@@ -10,7 +10,6 @@ import java.util.Objects;
 @JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 @Table(name = "comment")
 public class Comment implements Serializable {
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
@@ -18,7 +17,7 @@ public class Comment implements Serializable {
     private Integer userId;
     private Integer postId;
 
-    public Comment() {
+    public Comment(){
     }
 
     public Comment(Integer id, String commentText, Integer userId, Integer postId) {
@@ -63,17 +62,14 @@ public class Comment implements Serializable {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof Comment)) return false;
+        if (o == null || getClass() != o.getClass()) return false;
         Comment comment = (Comment) o;
-        return Objects.equals(getId(), comment.getId()) &&
-                Objects.equals(getCommentText(), comment.getCommentText()) &&
-                Objects.equals(getUserId(), comment.getUserId()) &&
-                Objects.equals(getPostId(), comment.getPostId());
+        return Objects.equals(id, comment.id) && Objects.equals(commentText, comment.commentText) && Objects.equals(userId, comment.userId) && Objects.equals(postId, comment.postId);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(getId(), getCommentText(), getUserId(), getPostId());
+        return Objects.hash(id, commentText, userId, postId);
     }
 
     @Override
