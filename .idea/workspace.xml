@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1bea9f1-797e-4ea8-9e28-761be850f40d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/insomnia.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/technews/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technews/controller/CommentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/technews/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technews/controller/PostController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/technews/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technews/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/technews/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technews/model/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/technews/model/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technews/model/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/technews/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technews/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/technews/model/Vote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technews/model/Vote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/technews/repository/VoteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technews/repository/VoteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/technews/model/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/technews/model/Comment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/technews/model/Post.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/technews/model/Post.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/technews/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/technews/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/technews/model/Vote.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/technews/model/Vote.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
