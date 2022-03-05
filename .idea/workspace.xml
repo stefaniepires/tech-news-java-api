@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f1bea9f1-797e-4ea8-9e28-761be850f40d" name="Changes" comment="Added Post Fragment Template">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/technews/controller/HomePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technews/controller/HomePageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/technews/controller/TechNewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/technews/controller/TechNewsController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
